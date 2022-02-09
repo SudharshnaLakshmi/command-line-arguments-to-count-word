@@ -22,7 +22,7 @@ Give print.
 
 ## PROGRAM:
 ```
-##Delovped by :Sudharshna Lakshmi.S
+##Developed by :Sudharshna Lakshmi.S
 ##Register number :212221230110
 
 import sys
