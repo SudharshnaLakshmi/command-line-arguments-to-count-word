@@ -6,22 +6,41 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
+import sys
 
 ### Step 2: 
+Open file using open().
  
 ### Step 3: 
+Use for loop.
 
 ### Step 4:  
+Use len to count number of words.
 
 ### Step 5: 
-
-### Step 6: 
+Give print.
 
 ## PROGRAM:
+```
+##Delovped by :Sudharshna Lakshmi.S
+##Register number :212221230110
+
+import sys
+
+with open(sys.argv[1],'r') as f:
+    num_words =0
+    for i in f:
+        word =i.split()
+        num_words += len(word)
+print("Number of words={}".format(num_words))
+
+```
 
 ### OUTPUT:
 
+![Output](.//output1.jpeg)
 
+![Output](.//output2.jpeg)
 
 ## RESULT:
 Thus the program is written to find the word count from the contents of a file using command line arguments.
